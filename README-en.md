@@ -7,7 +7,9 @@ and you will be notified about any new meeting or event we may organize.
 
 ## Next event
 
-No event scheduled at this moment.
+
+### 18-Nov-2015: "Brujería con node"
+A las 18:30, por Andrés Ortiz, en el aula de usos múltiples. Organizada por Beer.js y la OSL.
 
 ## Organizer
 
@@ -24,6 +26,9 @@ No event scheduled at this moment.
   * Twitter: https://twitter.com/jjmerelo
 
 ## History
+
+### 18-Nov-2015: "Brujería con node"
+A las 18:30, por Andrés Ortiz, en el aula de usos múltiples. Organizada por Beer.js y la OSL.
 
 ### 26-Oct-2015: Starting
 Creation of this group and setting up the repo.
