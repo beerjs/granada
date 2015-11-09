@@ -30,7 +30,7 @@ A las 18:30, por Andrés Ortiz, en el aula de usos múltiples. Organizada por Be
 
 ## Histórico
 ### 18-Nov-2015: Brujería con node
-A las 18:30, por Andrés Ortiz, en el aula de usos múltiples. Organizada por Beer.js y la OSL.
+A las 18:30, por Andrés Ortiz, en el aula de usos múltiples de la ETSIIT. Organizada por Beer.js y la OSL.
 
 ### 26-Oct-2015: Comenzamos
 Creación del grupo y configuración de este repositorio
