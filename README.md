@@ -13,6 +13,7 @@ Todos los eventos, actividades y espacios asociados a beer.js están sujetos al 
 ## Próximo evento
 ### 18-Nov-2015: "Brujería con node"
 A las 18:30, por Andrés Ortiz, en el aula de usos múltiples. Organizada por Beer.js y la OSL.
+[Material de la charla](http://demiurgosoft.github.io/brujeria-con-node/)
 
 ## Organizadores
 
@@ -30,7 +31,7 @@ A las 18:30, por Andrés Ortiz, en el aula de usos múltiples. Organizada por Be
 
 ## Histórico
 ### 18-Nov-2015: Brujería con node
-A las 18:30, por Andrés Ortiz, en el aula de usos múltiples de la ETSIIT. Organizada por Beer.js y la OSL.
+A las 18:30, por Andrés Ortiz, en el aula de usos múltiples de la ETSIIT. Organizada por Beer.js y la OSL. [Material de la charla](http://demiurgosoft.github.io/brujeria-con-node/)
 
 ### 26-Oct-2015: Comenzamos
 Creación del grupo y configuración de este repositorio
