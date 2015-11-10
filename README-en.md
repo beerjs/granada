@@ -9,7 +9,7 @@ and you will be notified about any new meeting or event we may organize.
 
 
 ### 18-Nov-2015: "Brujería con node"
-A las 18:30, por Andrés Ortiz, en el aula de usos múltiples de la ETSIIT. Organizada por Beer.js y la OSL.
+A las 16:30, por Andrés Ortiz, en el aula de usos múltiples de la ETSIIT. Organizada por Beer.js y la OSL.
   * [Material de la charla](http://demiurgosoft.github.io/brujeria-con-node/)
 
 ## Organizer
@@ -29,7 +29,7 @@ A las 18:30, por Andrés Ortiz, en el aula de usos múltiples de la ETSIIT. Orga
 ## History
 
 ### 18-Nov-2015: "Brujería con node"
-A las 18:30, por Andrés Ortiz, en el aula de usos múltiples. Organizada por Beer.js y la OSL.
+A las 16:30, por Andrés Ortiz, en el aula de usos múltiples. Organizada por Beer.js y la OSL.
   * [Material de la charla](http://demiurgosoft.github.io/brujeria-con-node/)
 
 ### 26-Oct-2015: Starting
