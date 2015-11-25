@@ -7,12 +7,9 @@ and you will be notified about any new meeting or event we may organize.
 
 ## Next event
 
+### No event currently scheduled.
 
-### 18-Nov-2015: "Brujería con node"
-A las 16:30, por Andrés Ortiz, en el aula de usos múltiples de la ETSIIT. Organizada por Beer.js y la OSL.
-  * [Material de la charla](http://demiurgosoft.github.io/brujeria-con-node/)
-
-## Organizer
+## Organizers
 
 * Víctor Rivas
   * Web: http://vrivas.es
