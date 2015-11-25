@@ -11,9 +11,8 @@ Ten en cuenta que el propósito de beer.js es crear espacios para fortalecer com
 Todos los eventos, actividades y espacios asociados a beer.js están sujetos al  [Código de Conducta del Ciudadano](http://es.confcodeofconduct.com/) (o si lo prefieres en su versión original en inglés: [Citizen Code of Conduct](http://citizencodeofconduct.org/)), que muy brevemenete se resume en que no se acepta ningún tipo de abuso ni comportamiento irrespetuoso.
 
 ## Próximo evento
-### 18-Nov-2015: "Brujería con Node.js"
-A las **16:30**, por Andrés Ortiz (@demiurgosoft), en el aula de usos múltiples. Organizada por Beer.js y la OSL.
-  * [Material de la charla](http://demiurgosoft.github.io/brujeria-con-node/)
+### Actualmente, no hay ningún evento programado
+
 
 ## Organizadores
 
