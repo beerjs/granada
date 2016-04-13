@@ -10,8 +10,8 @@ Ten en cuenta que el propósito de beer.js es crear espacios para fortalecer com
 
 Todos los eventos, actividades y espacios asociados a beer.js están sujetos al  [Código de Conducta del Ciudadano](http://es.confcodeofconduct.com/) (o si lo prefieres en su versión original en inglés: [Citizen Code of Conduct](http://citizencodeofconduct.org/)), que muy brevemenete se resume en que no se acepta ningún tipo de abuso ni comportamiento irrespetuoso.
 
-## Próximo evento
-### Actualmente, no hay ningún evento programado
+## 13-Abr-2016: Taller de jQuery
+A las **18:30** en el **Salón de Grados de la ETSIIT**, organizado la Oficina de Software Libre de la Universidad de Granada e impartido por Germán Martínez Maldonado, técnico de la OSL.
 
 
 ## Organizadores
@@ -29,6 +29,8 @@ Todos los eventos, actividades y espacios asociados a beer.js están sujetos al 
   * Twitter: https://twitter.com/jjmerelo
 
 ## Histórico
+## 13-Abr-2016: Taller de jQuery
+A las **18:30** en el **Salón de Grados de la ETSIIT**, organizado la Oficina de Software Libre de la Universidad de Granada e impartido por Germán Martínez Maldonado, técnico de la OSL.
 ### 18-Nov-2015: Brujería con Node.js
 A las **16:30**, por Andrés Ortiz (@demiurgosoft), en el aula de usos múltiples de la ETSIIT. Organizada por Beer.js y la OSL. 
   * [Material de la charla](http://demiurgosoft.github.io/brujeria-con-node/)
