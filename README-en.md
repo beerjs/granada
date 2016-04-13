@@ -6,8 +6,9 @@ Click the <img src="http://beerjs.github.io/sf/assets/watch.png" height="18"> bu
 and you will be notified about any new meeting or event we may organize.
 
 ## Next event
+### 13-Abr-2016: jQuery
 
-### No event currently scheduled.
+Hour: **18:30**, Place: **Salón de Grados de la ETSIIT**, Organizer: **Oficina de Software Libre of the Universidad de Granada**,  Speaker: **Germán Martínez Maldonado**
 
 ## Organizers
 
@@ -24,6 +25,8 @@ and you will be notified about any new meeting or event we may organize.
   * Twitter: https://twitter.com/jjmerelo
 
 ## History
+### 13-Abr-2016: jQuery
+Hour: **18:30**, Place: **Salón de Grados de la ETSIIT**, Organizer: **Oficina de Software Libre of the Universidad de Granada**,  Speaker: **Germán Martínez Maldonado**
 
 ### 18-Nov-2015: "Brujería con node"
 A las 16:30, por Andrés Ortiz, en el aula de usos múltiples. Organizada por Beer.js y la OSL.
