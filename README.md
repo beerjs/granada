@@ -1,10 +1,18 @@
 # BeerJS Granada (Spain)
 
+## Próximos eventos
+
+### 18-Oct-2016: Reunión inicial
+
+Empezamos el nuevo curso con una reunión inicial que sirva para reactivar el grupo y como toma de contacto entre los componentes de la comunidad. La reunión tendrá lugar en el Aula de usos múltiples de la ETSIIT, a las 12:30h.
+
+## Presentación
+
 ![BeerJS](https://raw.githubusercontent.com/beerjs/granada/master/images/beerjs.png)El grupo de BeerJS en Granada, España.
 
 Si haces click en el botón ![](http://beerjs.github.io/sf/assets/watch.png) que hay arriba, a la derecha, en esta misma página, te llegarán notificaciones de cada encuentro o evento que organicemos.
 
-Ten en cuenta que el propósito de beer.js es crear espacios para fortalecer comunidades de software... es decir, no está tan enfocado al "beer", como al ".js", por lo que no es en absoluto un requisito necesario el beber para participar. Para fortalecer esta comunidad en Granada, promoveremos el encuentro de los miembros de la red (y de cualquier otra persona interesada) para promocionar el aprendizaje y uso de JavaScript en un entorno informal, en el que podremos compartir algo para beber y/o comer. Con este objetivo organizaremos reuniones mensuales el penúltimo martes de cada mes.
+Ten en cuenta que el propósito de beer.js es crear espacios para fortalecer comunidades de software... es decir, no está tan enfocado al "beer", como al ".js", por lo que no es en absoluto un requisito necesario el beber para participar. Para fortalecer esta comunidad en Granada, promoveremos el encuentro de los miembros de la red (y de cualquier otra persona interesada) para promocionar el aprendizaje y uso de JavaScript en un entorno informal. Con este objetivo organizaremos reuniones mensuales el penúltimo martes de cada mes.
 
 Todos los eventos, actividades y espacios asociados a beer.js están sujetos al [Código de Conducta del Ciudadano](http://es.confcodeofconduct.com/) (o si lo prefieres en su versión original en inglés: [Citizen Code of Conduct](http://citizencodeofconduct.org/)), que muy brevemente se resume en que no se acepta ningún tipo de abuso ni comportamiento irrespetuoso.
 
@@ -31,11 +39,7 @@ Todos los eventos, actividades y espacios asociados a beer.js están sujetos al 
   - GitHub: <https://github.com/germaaan>
   - Twitter: <https://twitter.com/germaaan_>
 
-## Próximos eventos
 
-### 18-Oct-2016: Reunión inicial
-
-Empezamos el nuevo curso con una reunión inicial que sirva para reactivar el grupo y como toma de contacto entre los componentes de la comunidad.
 
 ## Histórico
 
