@@ -1,5 +1,12 @@
 # BeerJS Granada (Spain)
+## Next event
 
+### 18-Oct-2016: Initial meeting
+
+We started the new year with an initial meeting to reactivate the group and initial contacts between the components of the community.
+The place is Aula de Usos Multiples at ETSIIT, in Granada. The hour is 12:30h.
+
+## Introduction
 The BeerJS group of Granada, in Spain.
 
 Click the ![](http://beerjs.github.io/sf/assets/watch.png) button (top and left in this same page) and you will be notified about any new meeting or event we may organize.
@@ -27,11 +34,6 @@ Click the ![](http://beerjs.github.io/sf/assets/watch.png) button (top and left 
   - GitHub: <https://github.com/germaaan>
   - Twitter: <https://twitter.com/germaaan_>
 
-## Next event
-
-### 18-Oct-2016: Initial meeting
-
-We started the new year with an initial meeting to reactivate the group and initial contacts between the components of the community.
 
 ## History
 
