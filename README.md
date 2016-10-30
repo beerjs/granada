@@ -2,9 +2,9 @@
 
 ## Próximos eventos
 
-### 18-Oct-2016: Reunión inicial
+### 22-Nov-2016: Tema por determinar
 
-Empezamos el nuevo curso con una reunión inicial que sirva para reactivar el grupo y como toma de contacto entre los componentes de la comunidad. La reunión tendrá lugar en el Aula de usos múltiples de la ETSIIT, a las 12:30h.
+La reunión tendrá lugar en el Aula de usos múltiples de la ETSIIT, a las 12:30h.
 
 ## Presentación
 
@@ -42,6 +42,12 @@ Todos los eventos, actividades y espacios asociados a beer.js están sujetos al 
 
 
 ## Histórico
+
+### 18-Oct-2016: Reunión inicial
+
+Empezamos el nuevo curso con una reunión inicial que sirva para reactivar el grupo y como toma de contacto entre los componentes de la comunidad. La reunión tendrá lugar en el Aula de usos múltiples de la ETSIIT, a las 12:30h.
+
+- [Material de la charla](http://germaaan.github.io/introductron)
 
 ### 13-Abr-2016: Taller de jQuery
 
