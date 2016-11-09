@@ -2,9 +2,10 @@
 
 ## Próximos eventos
 
-### 22-Nov-2016: Tema por determinar
-
+### 22-Nov-2016: Eventos y ¿algo más?
 La reunión tendrá lugar en el Aula de usos múltiples de la ETSIIT, a las 12:30h.
+
+@vrivas hablará de programación de eventos en JavaScript.
 
 ## Presentación
 
