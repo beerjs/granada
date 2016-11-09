@@ -1,9 +1,11 @@
 # BeerJS Granada (Spain)
 ## Next event
 
-### 22-Nov-2016: TBA
+### 22-Nov-2016: Events and ... something else?
 
 The place is Aula de Usos Multiples at ETSIIT, in Granada. The hour is 12:30h.
+
+@vrivas will give a little speech about Events in JavaScript
 
 ## Introduction
 The BeerJS group of Granada, in Spain.
