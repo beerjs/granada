@@ -1,14 +1,23 @@
 <html>
 <head>
-  <title>Eventos 1</title>
+  <title>Eventos 2_bis</title>
   <script>
-  function cambiaColor( color ) {
-    document.getElementById('contenedor-texto').style.backgroundColor=color;
+  function cambiaColor3() {
+    document.getElementById('contenedor-texto').style.backgroundColor=
+      window.getComputedStyle( this ,null).getPropertyValue('background-color');
   }
 
-  function cambiaColor2( objeto ) {
-    document.getElementById('contenedor-texto').style.backgroundColor=
-      window.getComputedStyle( objeto ,null).getPropertyValue('background-color');
+  function asignaEventos() {
+    document.getElementById("m_rojo").onmouseover=cambiaColor3;
+    document.getElementById("m_verde").onmouseover=cambiaColor3;
+    document.getElementById("m_azul").onmouseover=cambiaColor3;
+  }
+
+  function asignaEventos2() {
+    var divs=document.getElementById("contenedor-muestras").getElementsByTagName("div");
+    for( i in divs ) {
+      divs[i].onmouseover=cambiaColor3;
+    }
   }
   </script>
   <style>
@@ -29,23 +38,23 @@
   .azul {
     background-color: blue;
   }
-  #contenedor-muestra
+  #contenedor-muestras
   , #contenedor-texto {
     clear: both;
-    border: 1px solid black;
   }
   </style>
 </head>
 <body>
   <div id="contenedor-muestras">
-    <div class="muestra rojo"
-          onmouseover="document.getElementById('contenedor-texto').style.backgroundColor='red';"></div>
-    <div class="muestra verde"
-         onmouseover="cambiaColor('green')"></div>
-    <div class="muestra azul"
-        onmouseover="cambiaColor2(this)"></div>
+    <div class="muestra rojo" id="m_rojo"></div>
+    <div class="muestra verde" id="m_verde"></div>
+    <div class="muestra azul" id="m_azul"></div>
   </div>
   <div id="contenedor-texto">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ex orci, dictum in dui a, suscipit lacinia sem. Nullam arcu enim, gravida vitae aliquam et, ornare eu mauris. Pellentesque euismod justo condimentum purus interdum, eget commodo dui dictum. Curabitur eget condimentum urna. Nulla eleifend efficitur erat, vitae lobortis nisl tristique efficitur. Vestibulum commodo sollicitudin sollicitudin. Proin nec dolor et risus dictum viverra.
   </div>
+
+  <script>
+  asignaEventos2();
+  </script>
 </html>

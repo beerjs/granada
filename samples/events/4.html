@@ -1,0 +1,93 @@
+<html>
+<head>
+  <title>Eventos 4</title>
+  <script>
+
+  function cambiaColor4( evento ) {
+    alert( "cambiaColor4")
+    document.getElementById('contenedor-texto').style.backgroundColor=
+      window.getComputedStyle( evento.target ,null).getPropertyValue('background-color');
+  }
+  function cambiaColorFondo( evento ) {
+    document.body.style.backgroundColor=
+      window.getComputedStyle( evento.target ,null).getPropertyValue('background-color');
+  }
+  function escribeColor( evento ) {
+    evento.target.innerHTML=window.getComputedStyle( evento.target ,null).getPropertyValue('background-color');
+  }
+  function borraColor( evento ) {
+    evento.target.innerHTML="";
+  }
+  function asignaEventos3() {
+    var divs=document.getElementById("contenedor-muestras").getElementsByTagName("div");
+    for( i in divs ) {
+      divs[i].addEventListener( "mouseover", cambiaColor4 );
+      divs[i].addEventListener( "mouseover", cambiaColorFondo );
+      divs[i].addEventListener( "mouseover", escribeColor );
+      divs[i].addEventListener( "mouseout", borraColor );
+    }
+  }
+
+  function aniadeContenido( evento ) {
+    alert( "Contenido");
+    var letras="ABCDEFGHIJKLMNÑOPQRSTUVWXYZ           abcdefghijklmnñopqrstuvwxyz";
+    document.getElementById("contenedor-texto").innerHTML+=letras[Math.floor(Math.random()*letras.length)];
+  }
+  function asignaEventos4() {
+    document.getElementById("contenedor-muestras").addEventListener( "mouseover", aniadeContenido, false);
+    var divs=document.getElementById("contenedor-muestras").getElementsByTagName("div");
+    for( var i=0; i<divs.length; ++i ) {
+      divs[i].addEventListener( "mouseover", cambiaColor4 );
+      divs[i].addEventListener( "mouseover", cambiaColorFondo);
+      divs[i].addEventListener( "mouseover", escribeColor);
+      divs[i].addEventListener( "mouseout", borraColor );
+    }
+  }
+  </script>
+  <style>
+  .muestra {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 2em;
+    float: left;
+  }
+
+  .rojo {
+    background-color: red;
+  }
+  .verde {
+    background-color: green;
+  }
+  .azul {
+    background-color: blue;
+  }
+  #contenedor-muestras
+  , #contenedor-texto {
+    clear: both;
+    min-height: 200px;
+  }
+
+  .borde-resaltado {
+    border: 10pt solid black;
+  }
+  .borde-normal {
+    border: 1pt solid black;
+  }
+
+  </style>
+</head>
+<body>
+  <div id="contenedor-muestras">
+    <div class="muestra rojo borde-normal" id="m_rojo"></div>
+    <div class="muestra verde borde-normal" id="m_verde"></div>
+    <div class="muestra azul borde-normal" id="m_azul"></div>
+  </div>
+  <div id="contenedor-texto">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ex orci, dictum in dui a, suscipit lacinia sem. Nullam arcu enim, gravida vitae aliquam et, ornare eu mauris. Pellentesque euismod justo condimentum purus interdum, eget commodo dui dictum. Curabitur eget condimentum urna. Nulla eleifend efficitur erat, vitae lobortis nisl tristique efficitur. Vestibulum commodo sollicitudin sollicitudin. Proin nec dolor et risus dictum viverra.
+  </div>
+
+  <script>
+  asignaEventos4();
+  </script>
+</html>
