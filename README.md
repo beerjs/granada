@@ -6,6 +6,7 @@
 La reunión tendrá lugar en el Aula de usos múltiples de la ETSIIT, a las 12:30h.
 
 @vrivas hablará de programación de eventos en JavaScript.
+Asistentes @germaaan, @vrivas, @pedritomelenas, @lftorres.
 
 ## Presentación
 
