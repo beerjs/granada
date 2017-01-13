@@ -2,11 +2,10 @@
 
 ## Próximos eventos
 
-### 22-Nov-2016: Eventos y ¿algo más?
+### 24-Enero-2017: JavaScript y álgebra
 La reunión tendrá lugar en el Aula de usos múltiples de la ETSIIT, a las 12:30h.
 
-@vrivas hablará de programación de eventos en JavaScript.
-Asistentes @germaaan, @vrivas, @pedritomelenas, @lftorres.
+Para esta reunión, aparte de ponernos al día con los diferentes proyectos que estamos llevando a cabo y a raíz de un par de sugerencias de la reunión anterior, uno de los temas a tratar serán diferentes librerías JavaScript relacionadas con el mundo de las matemáticas como GeoGebra, MathJax, JSXGraph, Viz.js y Algebrite. Correrán a cargo del profesor @pedritomelenas
 
 ## Presentación
 
@@ -44,6 +43,11 @@ Todos los eventos, actividades y espacios asociados a beer.js están sujetos al 
 
 
 ## Histórico
+### 22-Nov-2016: Eventos y ¿algo más?
+La reunión tendrá lugar en el Aula de usos múltiples de la ETSIIT, a las 12:30h.
+
+@vrivas hablará de programación de eventos en JavaScript.
+Asistentes @germaaan, @vrivas, @pedritomelenas, @lftorres.
 
 ### 18-Oct-2016: Reunión inicial
 
