@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tiny example</title>
+  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.js"></script>
+  <body>
+
+    <script src="viz.js"></script>
+    <div id="demo">Hola </div>
+
+    <div id="demo2">Hola </div>
+
+    <script>
+    var res="digraph{ a ";
+
+    var html = katex.renderToString("c = \\pm\\sqrt{a^2 + b^2}");
+    document.getElementById("demo2").innerHTML = html;
+
+    res= res.concat('[label="lala','"];');
+    res= res.concat(" a -> b; }")
+
+    document.getElementById("demo").innerHTML = Viz(res);
+
+    </script>
+
+  </body>
+</html>

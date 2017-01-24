@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<head>
+<title>Muro fracciones</title>
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+</head>
+
+<body>
+
+<h1>Experimentando con el muro de fracciones</h1>
+
+<script type="text/javascript" src="https://www.geogebra.org/scripts/deployggb.js"></script>
+
+<!--data-param-width="600" data-param-height="600"
+data-param-showResetIcon="true" data-param-enableLabelDrags="false" data-param-showMenuBar="false"
+data-param-showToolBar="false" data-param-showAlgebraInput="false" enableLabelDrags="false"-->
+
+<script type="text/javascript">
+var applet1 = new GGBApplet({filename: "muro-comparar.ggb","showtoolbar":false, "enableDrags":false, "showAlgebraInput":false, "borderColor":null}, true);
+window.onload = function() {
+    applet1.inject('applet_container1', 'preferHTML5');
+}</script>
+
+<h2>Comparando fracciones</h2>
+
+<div style="width:620px;height:500px;display:block" id="applet_container1"></div>
+
+<form name="myForm">
+  <input value="Muro de fracciones" onclick="ggbApplet.setValue('anima', false)" type="button">
+  <input value="Compara fracciones" onclick="ggbApplet.setValue('anima', true)" type="button"><br>
+  $a$ = <input name="a" size="3" value="1" type="text"> / <input name="b" size="3" value="7" type="text">
+  $b$ = <input name="a1" size="3" value="1" type="text"> / <input name="b1" size="3" value="6" type="text">
+  $n$ = <input name="n" size="3" value="12" type="text">
+  <input value="Set" onclick="setVals()" type="button">
+</form>
+
+
+<p id="demo"></p>
+
+
+<script type="text/javascript">
+function setVals(){
+  var n = document.myForm.n.value;
+  var a = document.myForm.a.value;
+  var b = document.myForm.b.value;
+  var a1 = document.myForm.a1.value;
+  var b1 = document.myForm.b1.value;
+  var peab, peab1;
+  var text;
+
+  peab=0;
+  peab1=0;
+  text="";
+
+  if (isNaN(a) || a < 0 || a > 100) {
+      a=1;
+      text = text+"Numerador de la primera fracción incorrecto, lo ponemos a "+parseInt(a)+"<br>";
+  }
+
+  if (isNaN(b) || b < 1 || b > 100) {
+      b=1;
+      text = text+"Denominador de la primera fracción incorrecto, lo ponemos a "+parseInt(b)+"<br>";
+  }
+
+  if (isNaN(a1) || a1 < 0 || a1 > 100) {
+      a1=1;
+      text = text+"Numerador de la segunda fracción incorrecto, lo ponemos a "+parseInt(a1)+"<br>";
+  }
+
+  if (isNaN(b1) || b1 < 1 || b1 > 100) {
+      b1=1;
+      text = text+ "Denominador de la egunda fracción incorrecto, lo ponemos a "+parseInt(b1)+"<br>";
+  }
+
+  if (isNaN(n) || n < Math.max(b,b1) || n > 100) {
+      n=Math.max(b,b1);
+      text = text+"Número de partes no válido, lo ponemos a "+parseInt(n)+"<br>";
+  }
+  else {
+      text = "";
+  }
+
+  peab=a/b;
+  a=a%b;
+  text=text+"$ a="+parseInt(peab)+"+ \\frac{"+parseInt(a)+"}{"+parseInt(b)+"}$, ";
+
+  peab1=a1/b1;
+  a1=a1%b1;
+  text=text+"$b="+parseInt(peab1)+"+\\frac{"+parseInt(a1)+"}{"+parseInt(b1)+"}$";
+
+
+  document.getElementById("demo").innerHTML = text;
+
+  MathJax.Hub.Typeset();
+
+  ggbApplet.setValue('n', n);
+  ggbApplet.setValue('a', a);
+  ggbApplet.setValue('b', b);
+  ggbApplet.setValue('a1', document.myForm.a1.value);
+  ggbApplet.setValue('b1', document.myForm.b1.value);
+}
+</script>
+</body>
